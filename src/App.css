@@ -1,0 +1,66 @@
+.mp-container {
+  width: 75vw;
+  height: 75vh;
+  display: flex;
+  background-color: white;
+}
+
+.mp-album-container {
+  background-size: cover !important;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.mp-app-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #050505;
+}
+
+.search-input {
+  padding: 20px 25px;
+  border: none;
+  background-color: #070707;
+  font-size: 14px;
+  color: #fafafa;
+  outline: none;
+}
+
+.tl-container {
+  overflow: scroll;
+}
+
+.le-container {
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #050505;
+}
+
+.le-container:hover {
+  background-color: #131313;
+}
+
+.le-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.le-content {
+  margin-left: 15px
+}
+
+.le-title {
+  color: #fafafa;
+  font-size: 16px;
+  line-height: 5px;
+}
+
+.le-artist {
+  color: #bbbbbb;
+  font-size: 13px;
+}
